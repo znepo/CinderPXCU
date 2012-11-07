@@ -10,8 +10,7 @@ using namespace snepo;
 using namespace snepo::pxcu;
 using namespace std;
 
-PXCUService::PXCUService ( PXCUPipeline pipelineFlags, int retryCount ) : _pipelineFlags ( pipelineFlags ), 
-																		   _retryCount ( retryCount )
+PXCUService::PXCUService ( PXCUPipeline pipelineFlags, int retryCount ) : _pipelineFlags ( pipelineFlags ), _retryCount ( retryCount )
 {
 	init();
 }
